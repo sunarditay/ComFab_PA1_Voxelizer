@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              537104A003604A95AF53A608 /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 950E4B2106234D14A40B696B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            EE8CF306646247CF82E8A52B /* CMake Rules */,
+                     );
+                     dependencies = (
+                            0611DC7025514DAD96F7F6CD /* PBXTargetDependency */,
+                            F1643ED7F2AE41A19DB4EB0A /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              D35C098FD26441BC88604BE2 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 7B439846EE384FFD9B484DD3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            A6AE3694A24E47C3840D94CD /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+15A3437B06914473AB49C070 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A2650B45CD5743C2BE46CE37 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+202DB1FEDD8149CF8C678323 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h */ = {isa = PBXBuildFile; fileRef = FFCB52CF30474DCCBCF39610 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h */; settings = { COMPILER_FLAGS = ""; }; };
+F5BF611E1B06449B82616823 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/Mesh.h */ = {isa = PBXBuildFile; fileRef = C198A18E4D294165B4AC43DD /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/Mesh.h */; settings = { COMPILER_FLAGS = ""; }; };
+B68EF56059CE437A8EC9278B /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/CompFab.cpp */ = {isa = PBXBuildFile; fileRef = 1552B538A1314A0D96FE9A87 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/CompFab.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+30700220E2EF479680B882F3 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/Mesh.cpp */ = {isa = PBXBuildFile; fileRef = 17BAD6A35DF746F4856E3443 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/Mesh.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+84DC4A25779F40F5ADB7EF71 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/main.cpp */ = {isa = PBXBuildFile; fileRef = 83DF4953B83B4ADD922F4122 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              01E51F8AA0C54258BC712F14 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              A21C4329142D479A9561F27E /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              7F9BC009547C4B5299828830 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              958601FEFE9946388518FC93 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              8AD8ED424267474B93768CED /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              FDC27A4425A147229DAD7403 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DD47E3B5ACF7454585006ED0 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 5EE2043A80ED4062AD450D33;
+                     remoteInfo = voxelizer;
+              };
+              C222D758B4A94604A5D83D8C /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DD47E3B5ACF7454585006ED0 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D35C098FD26441BC88604BE2;
+                     remoteInfo = ZERO_CHECK;
+              };
+              8312508E565B44C6876428E0 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = DD47E3B5ACF7454585006ED0 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = D35C098FD26441BC88604BE2;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+8D60004BA4E840CFAA349409 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+6720552207A5485B97F1D389 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+A2650B45CD5743C2BE46CE37 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = "sourcecode.text"; fileEncoding = 4; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+FFCB52CF30474DCCBCF39610 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "CompFab.h"; path = "include/CompFab.h"; sourceTree = SOURCE_ROOT; };
+C198A18E4D294165B4AC43DD /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/Mesh.h */ = {isa = PBXFileReference; explicitFileType = "sourcecode.c.h"; fileEncoding = 4; name = "Mesh.h"; path = "include/Mesh.h"; sourceTree = SOURCE_ROOT; };
+1552B538A1314A0D96FE9A87 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/CompFab.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "CompFab.cpp"; path = "source/CompFab.cpp"; sourceTree = SOURCE_ROOT; };
+17BAD6A35DF746F4856E3443 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/Mesh.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "Mesh.cpp"; path = "source/Mesh.cpp"; sourceTree = SOURCE_ROOT; };
+83DF4953B83B4ADD922F4122 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/main.cpp */ = {isa = PBXFileReference; explicitFileType = "sourcecode.cpp.cpp"; fileEncoding = 4; name = "main.cpp"; path = "source/main.cpp"; sourceTree = SOURCE_ROOT; };
+25308C9B33B241DB9D551BAA /* voxelizer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = voxelizer; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              DF9CC5369AD141DB9C271EA6  = {
+                     isa = PBXGroup;
+                     children = (
+                            7CB0FDEBCBA344E5BAA5D86C /* Sources */,
+                            9629E4B19B6C4FE1B295942B /* Resources */,
+                            904D7E1F3B764CCB97781CE6 /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              7CB0FDEBCBA344E5BAA5D86C /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            7367A0EEA9B845A7B6FB79EB /* ALL_BUILD */,
+                            CE25E0F3E5464CFB99D801AB /* ZERO_CHECK */,
+                            C6DCB5B6694F4F92A79A90AE /* voxelizer */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              9629E4B19B6C4FE1B295942B /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              7367A0EEA9B845A7B6FB79EB /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            C840E164ADC5477FB980485A /* CMake Rules */,
+                            8D60004BA4E840CFAA349409 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              C840E164ADC5477FB980485A /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              CE25E0F3E5464CFB99D801AB /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            2B6BABF1ABF34754B780A796 /* CMake Rules */,
+                            6720552207A5485B97F1D389 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              2B6BABF1ABF34754B780A796 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              C6DCB5B6694F4F92A79A90AE /* voxelizer */ = {
+                     isa = PBXGroup;
+                     children = (
+                            5FFB2A79C2814B68834DB6BC /* Source Files */,
+                            BF2BCAD7C0E34639BFDF901F /* Header Files */,
+                            A2650B45CD5743C2BE46CE37 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/CMakeLists.txt */,
+                     );
+                     name = voxelizer;
+                     sourceTree = "<group>";
+              };
+              5FFB2A79C2814B68834DB6BC /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            1552B538A1314A0D96FE9A87 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/CompFab.cpp */,
+                            17BAD6A35DF746F4856E3443 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/Mesh.cpp */,
+                            83DF4953B83B4ADD922F4122 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/main.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              BF2BCAD7C0E34639BFDF901F /* Header Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            FFCB52CF30474DCCBCF39610 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h */,
+                            C198A18E4D294165B4AC43DD /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/include/Mesh.h */,
+                     );
+                     name = "Header Files";
+                     sourceTree = "<group>";
+              };
+              904D7E1F3B764CCB97781CE6 /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            25308C9B33B241DB9D551BAA /* voxelizer */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              5EE2043A80ED4062AD450D33 /* voxelizer */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = FABCA0D2E14E4C4493422505 /* Build configuration list for PBXNativeTarget "voxelizer" */;
+                     buildPhases = (
+                            FF28A6BFF8724E7AAEA8C2B1 /* Sources */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            5E966AF17FFE41908539AB63 /* PBXTargetDependency */,
+                     );
+                     name = voxelizer;
+                     productName = voxelizer;
+                     productReference = 25308C9B33B241DB9D551BAA /* voxelizer */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              DD47E3B5ACF7454585006ED0 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 381E47EB76FA49038203F2D0 /* Build configuration list for PBXProject  "voxelizer" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            A21C4329142D479A9561F27E /* Debug */,
+                            7F9BC009547C4B5299828830 /* Release */,
+                            958601FEFE9946388518FC93 /* MinSizeRel */,
+                            8AD8ED424267474B93768CED /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = DF9CC5369AD141DB9C271EA6;
+                     projectDirPath = ".";
+                     projectRoot = "";
+                     targets = (
+                            537104A003604A95AF53A608 /* ALL_BUILD */,
+                            D35C098FD26441BC88604BE2 /* ZERO_CHECK */,
+                            5EE2043A80ED4062AD450D33 /* voxelizer */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              A51CA7EF39F7489991B4A250 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              EE8CF306646247CF82E8A52B /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sunardi/Term8/Computational\\ Fabrication/PA/A1 -f /Users/sunardi/Term8/Computational\\ Fabrication/PA/A1/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              1E64FA1031C7452295E02701 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              A6AE3694A24E47C3840D94CD /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/sunardi/Term8/Computational\\ Fabrication/PA/A1 -f /Users/sunardi/Term8/Computational\\ Fabrication/PA/A1/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              FF28A6BFF8724E7AAEA8C2B1 /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            B68EF56059CE437A8EC9278B /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/CompFab.cpp */,
+                            30700220E2EF479680B882F3 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/Mesh.cpp */,
+                            84DC4A25779F40F5ADB7EF71 /* /Users/sunardi/Term8/Computational Fabrication/PA/A1/source/main.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              0611DC7025514DAD96F7F6CD /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 5EE2043A80ED4062AD450D33 /* voxelizer */;
+                     targetProxy = FDC27A4425A147229DAD7403 /* PBXContainerItemProxy */;
+              };
+              F1643ED7F2AE41A19DB4EB0A /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D35C098FD26441BC88604BE2 /* ZERO_CHECK */;
+                     targetProxy = C222D758B4A94604A5D83D8C /* PBXContainerItemProxy */;
+              };
+              5E966AF17FFE41908539AB63 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = D35C098FD26441BC88604BE2 /* ZERO_CHECK */;
+                     targetProxy = 8312508E565B44C6876428E0 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              D05F429EC19E42A7B371A5F6 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1/build";
+                     };
+                     name = Debug;
+              };
+              0394375ECA5B43B3955F86D9 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1/build";
+                     };
+                     name = Release;
+              };
+              8C2F4BE2A47440B4AF9CDEEC /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1/build";
+                     };
+                     name = MinSizeRel;
+              };
+              A5AE00364E7E4798B5604F5E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.10.sdk";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              2B24CBD6865E47F1A30135F0 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              0A6937F6E6644BB0B7102F00 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              E21C0A0C50244BC7AA3D9AC2 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              BF7A8AD1D3C34067AE77CB68 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              10397C15A0F34E4689B69372 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              5237AC1765C34880A18A3590 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              4619EE88A1F64898854EBE92 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              8D744634C7F14AF186E41F3C /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "  ";
+                            OTHER_LDFLAGS = " ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              CC98036D3369492EBB1077D4 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    ";
+                            OTHER_CPLUSPLUSFLAGS = "    ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = voxelizer;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              73DADEDF888F42CFB3C67453 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = voxelizer;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              757184679BC64640B148F70D /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = voxelizer;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              88AF47F6552842B99B55DD87 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            COMBINE_HIDPI_IMAGES = YES;
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG  ";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+                            OTHER_LDFLAGS = "  -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = voxelizer;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/sunardi/Term8/Computational Fabrication/PA/A1";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              381E47EB76FA49038203F2D0 /* Build configuration list for PBXProject  "voxelizer" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            D05F429EC19E42A7B371A5F6 /* Debug */,
+                            0394375ECA5B43B3955F86D9 /* Release */,
+                            8C2F4BE2A47440B4AF9CDEEC /* MinSizeRel */,
+                            A5AE00364E7E4798B5604F5E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              950E4B2106234D14A40B696B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            2B24CBD6865E47F1A30135F0 /* Debug */,
+                            0A6937F6E6644BB0B7102F00 /* Release */,
+                            E21C0A0C50244BC7AA3D9AC2 /* MinSizeRel */,
+                            BF7A8AD1D3C34067AE77CB68 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              7B439846EE384FFD9B484DD3 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            10397C15A0F34E4689B69372 /* Debug */,
+                            5237AC1765C34880A18A3590 /* Release */,
+                            4619EE88A1F64898854EBE92 /* MinSizeRel */,
+                            8D744634C7F14AF186E41F3C /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              FABCA0D2E14E4C4493422505 /* Build configuration list for PBXNativeTarget "voxelizer" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            CC98036D3369492EBB1077D4 /* Debug */,
+                            73DADEDF888F42CFB3C67453 /* Release */,
+                            757184679BC64640B148F70D /* MinSizeRel */,
+                            88AF47F6552842B99B55DD87 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = DD47E3B5ACF7454585006ED0;
+}

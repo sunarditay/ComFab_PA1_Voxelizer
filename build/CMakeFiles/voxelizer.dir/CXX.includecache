@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h
+cmath
+-
+
+/Users/sunardi/Term8/Computational Fabrication/PA/A1/include/Mesh.h
+map
+-
+vector
+-
+fstream
+-
+../include/CompFab.h
+/Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h
+
+/Users/sunardi/Term8/Computational Fabrication/PA/A1/source/main.cpp
+iostream
+-
+vector
+-
+../include/CompFab.h
+/Users/sunardi/Term8/Computational Fabrication/PA/A1/include/CompFab.h
+../include/Mesh.h
+/Users/sunardi/Term8/Computational Fabrication/PA/A1/include/Mesh.h
+sys/time.h
+-
+
